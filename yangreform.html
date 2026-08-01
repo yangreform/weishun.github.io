@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>王裕舜博士（Yu‑Shun Wang, Ph.D.）｜Home・Publications・Awards & Honors</title>
-  <meta name="description" content="王裕舜（Yu‑Shun Wang）學經歷、出版論文與得獎與社團紀錄。單檔 HTML，適用於 GitHub Pages 靜態部署。" />
+  <title>鞅法黑科技有限公司｜引領未來的 AI 專業技術</title>
+  <meta name="description" content="鞅法黑科技有限公司 - 專注於人工智慧與前瞻科技。由技術長王裕舜博士領軍，提供專業的AI解決方案與技術研發。" />
   <meta name="robots" content="index,follow" />
-  <meta property="og:title" content="王裕舜（Yu‑Shun Wang）" />
-  <meta property="og:description" content="Home・Publications・Awards & Honors" />
+  <meta property="og:title" content="鞅法黑科技有限公司" />
+  <meta property="og:description" content="引領未來的 AI 專業技術與解決方案" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_TW" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.85em' font-size='78'>🎓</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.85em' font-size='78'>🚀</text></svg>">
   <style>
     :root{
       --bg:#0b1220; --panel:#0f172a; --card:#0b1220; --text:#e5e7eb; --muted:#94a3b8;
@@ -34,13 +34,13 @@
       backdrop-filter: blur(8px); border-bottom:1px solid var(--border);
     }
     .wrap{ max-width: 1060px; margin: 0 auto; padding: 0 20px; }
-    .nav{ display:flex; align-items:center; justify-content:space-between; padding:14px 0; }
+    .nav{ display:flex; align-items:center; justify-content:space-between; padding:14px 0; flex-wrap: wrap; gap: 10px;}
     .brand{ display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:.3px; }
     .brand .logo{ font-size:22px; }
-    .menu a{ margin-left:16px; color:#e2e8f0; opacity:.95; font-weight:600; }
+    .menu a{ margin-left:16px; color:#e2e8f0; opacity:.95; font-weight:600; font-size: 15px;}
     .hero{ padding:64px 0 26px; border-bottom:1px solid var(--border); }
     .hero h1{ margin:0 0 8px; font-size: clamp(26px, 4vw, 42px); line-height:1.12; letter-spacing:.4px; }
-    .hero .sub{ color:var(--muted); max-width:820px; margin:8px 0 0; }
+    .hero .sub{ color:var(--muted); max-width:820px; margin:8px 0 0; font-size: 18px;}
     .badge{
       display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px;
       border:1px solid rgba(125,211,252,.25); background:rgba(56,189,248,.10); color:#e0f2fe;
@@ -50,18 +50,18 @@
     h2{ margin:0 0 16px; font-size: clamp(20px, 3vw, 28px); letter-spacing:.3px; }
     h3{ margin:0 0 10px; font-size:18px; color:#c7d2fe; }
     .grid{ display:grid; gap:16px; }
-    @media (min-width: 800px){ .grid-2{ grid-template-columns: 1fr 1fr; } .grid-3{ grid-template-columns: repeat(3,1fr); } }
+    @media (min-width: 800px){ .grid-2{ grid-template-columns: 1fr 1fr; } }
     .card{
       background: linear-gradient(180deg, rgba(11,18,32,.6), rgba(11,18,32,.95));
-      border:1px solid var(--border); border-radius:14px; padding:18px;
+      border:1px solid var(--border); border-radius:14px; padding:22px;
       box-shadow: 0 8px 24px rgba(0,0,0,.25);
     }
     .table{ width:100%; border-collapse: collapse; margin-top:6px; }
     .table th, .table td{ padding:10px 12px; border-bottom:1px dashed var(--border); text-align:left; vertical-align:top; }
-    .table th{ width:180px; color:#bae6fd; font-weight:700; }
+    .table th{ width:120px; color:#bae6fd; font-weight:700; }
     ul{ margin:8px 0 0; padding-left:18px; }
-    li{ margin:6px 0; }
-    .pill{ display:inline-block; padding:6px 10px; border:1px solid var(--border); border-radius:999px; margin:4px 6px 0 0; color:#cbd5e1; background:rgba(148,163,184,.06); }
+    li{ margin:8px 0; }
+    .pill{ display:inline-block; padding:6px 10px; border:1px solid var(--border); border-radius:999px; margin:4px 6px 0 0; color:#cbd5e1; background:rgba(148,163,184,.06); font-size: 13px;}
     .cta{ display:flex; flex-wrap:wrap; gap:10px; margin-top:12px; }
     .btn{
       display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:10px; font-weight:800;
@@ -69,173 +69,148 @@
     }
     .btn.alt{ background: rgba(34,197,94,.12); color:#d1fae5; }
     .note{ color:var(--muted); font-size:13px; margin-top:12px; }
-    footer{ border-top:1px solid var(--border); color:var(--muted); padding:28px 0 60px; }
-    .kicker{ color:#93c5fd; font-weight:800; letter-spacing:.5px; font-size:12px; text-transform:uppercase; }
+    footer{ border-top:1px solid var(--border); color:var(--muted); padding:28px 0 60px; text-align: center;}
+    .kicker{ color:#93c5fd; font-weight:800; letter-spacing:.5px; font-size:12px; text-transform:uppercase; margin-bottom: 8px; display: block;}
     .en{ color:#e2e8f0; opacity:.95; }
+    
+    /* YouTube 影片容器 */
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 比例 */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #000;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap nav">
       <div class="brand">
-        <div class="logo">🎓</div>
-        <div>Yu‑Shun Wang, Ph.D.</div>
+        <div class="logo">🚀</div>
+        <div>鞅法黑科技有限公司</div>
       </div>
       <nav class="menu">
-        <a href="#home">Home</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards & Honors</a>
-        <a href="#contact">Contact</a>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我們</a>
+        <a href="#media">媒體專訪</a>
+        <a href="#cto">技術長團隊</a>
+        <a href="#contact">聯絡我們</a>
       </nav>
     </div>
   </header>
 
   <div class="wrap hero" id="home">
-    <span class="badge">Academic profile</span>
-    <h1>王裕舜（Yu‑Shun Wang, Ph.D.）</h1>
+    <span class="badge">AI 創新領航者</span>
+    <h1>鞅法黑科技有限公司</h1>
+    <p class="sub">以頂尖的人工智慧演算法為核心，為企業打造高效、智慧的前瞻科技解決方案。由具備深厚學術與業界經驗的王裕舜博士領軍，突破技術極限。</p>
   </div>
 
   <main class="wrap">
-    <section aria-labelledby="about-title">
-      <h2 id="about-title">Home</h2>
+    
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">關於我們 (About Us)</h2>
+      <div class="card">
+        <h3 style="margin-bottom: 15px; color: #7dd3fc;">重新定義科技的邊界</h3>
+        <p><strong>鞅法黑科技有限公司（Yangfa Black Technology）</strong>專注於人工智慧（AI）、深度學習以及大數據分析的研發與落地應用。我們深信「黑科技」不僅僅是酷炫的技術名詞，更是能為產業帶來實質效率提升與商業價值的驅動力。</p>
+        <p>我們的核心團隊擁有頂尖的學術背景與豐富的實戰經驗，能夠針對不同領域的痛點，提供高度客製化的演算法開發、系統整合與智能自動化服務。</p>
+        <div class="cta" style="margin-top: 20px;">
+          <span class="pill">人工智慧 (AI)</span>
+          <span class="pill">深度學習 (Deep Learning)</span>
+          <span class="pill">演算法開發 (Algorithms)</span>
+          <span class="pill">智能解決方案</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" aria-labelledby="media-title">
+      <h2 id="media-title">媒體專訪 (Media Coverage)</h2>
+      <div class="card">
+        <h3>中天新聞專訪：揭秘鞅法黑科技</h3>
+        <p style="margin-bottom: 20px; color: var(--muted);">透過新聞媒體的鏡頭，快速了解鞅法黑科技的技術核心與發展願景。</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/GKBIuaztZ-A?rel=0" title="鞅法黑科技：中天新聞2分鐘專訪" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="note">影片來源：中天新聞 / YouTube</p>
+      </div>
+    </section>
+
+    <section id="cto" aria-labelledby="cto-title">
+      <h2 id="cto-title">技術長 (CTO)</h2>
+      <p style="color: var(--muted); margin-bottom: 20px;">公司的技術靈魂，擁有紮實的晶片設計、系統架構與演算法開發經驗。</p>
+      
       <div class="grid grid-2">
         <div class="card">
-          <div class="kicker">Profile</div>
+          <span class="kicker">Executive Profile</span>
+          <h3>王裕舜 博士</h3>
           <table class="table">
             <tr>
-              <th>中文姓名</th>
-              <td>王裕舜</td>
-            </tr>
-            <tr>
               <th>英文姓名</th>
-              <td class="en">Yu‑Shun Wang</td>
+              <td class="en">Yu‑Shun Wang, Ph.D.</td>
             </tr>
             <tr>
               <th>學位</th>
-              <td>Ph.D.</td>
-            </tr>
-            <tr>
-              <th>E-mail</th>
-              <td><a href="mailto:prof@weishun.cc">prof@weishun.cc</a></td>
+              <td>台灣大學 電子工程學研究所 博士</td>
             </tr>
             <tr>
               <th>LinkedIn</th>
-              <td><a href="https://www.linkedin.com/in/jackywang1980/" target="_blank" rel="noopener">linkedin.com/in/jackywang1980</a></td>
+              <td><a href="https://www.linkedin.com/in/jackywang1980/" target="_blank" rel="noopener">jackywang1980</a></td>
             </tr>
             <tr>
               <th>Facebook</th>
-              <td><a href="https://www.facebook.com/yushun.wang1" target="_blank" rel="noopener">facebook.com/yushun.wang1</a></td>
+              <td><a href="https://www.facebook.com/yushun.wang1" target="_blank" rel="noopener">yushun.wang1</a></td>
             </tr>
           </table>
-          <p class="note">© Yu‑Shun Wang, 2019 NTU. All rights reserved.</p>
         </div>
+        
         <div class="card">
-          <div class="kicker">Education</div>
+          <span class="kicker">Academic Background</span>
+          <h3>學歷背景</h3>
           <ul>
-            <li><strong>1998 Sept. – 2002 June:</strong> B.S., National Central University (EE)</li>
-            <li><strong>2002 Sept. – 2005 June:</strong> M.S., National Taiwan University (GIEE)</li>
-            <li><strong>2006 Sept. – 2012 June:</strong> Ph.D., National Taiwan University (GIEE)</li>
+            <li><strong>1998 – 2002:</strong> 學士, 國立中央大學 (電機工程)</li>
+            <li><strong>2002 – 2005:</strong> 碩士, 國立台灣大學 (電子所)</li>
+            <li><strong>2006 – 2012:</strong> 博士, 國立台灣大學 (電子所)</li>
           </ul>
           <div class="cta">
-            <span class="pill">EE</span>
-            <span class="pill">GIEE</span>
-            <span class="pill">NTU</span>
-            <span class="pill">NCU</span>
+            <span class="pill">NTU GIEE</span>
+            <span class="pill">NCU EE</span>
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="publications" aria-labelledby="pubs-title">
-      <h2 id="pubs-title">Publications</h2>
-      <div class="card">
-        <h3>Peer‑reviewed papers</h3>
-        <ul>
-          <li>
-            <strong>Wang, Yu‑Shun</strong>; M. Kumarasamy Raja; Tsung‑Yang Liow; Vishal V. Kulkarni; Bi Xiaojun; Do‑Won Kim; Andy Eu‑Jin Lim; Muthukumaraswamy Annamalai Arasu; Guo‑Qiang Lo.
-            <em>Enhanced dynamic range CMOS photonics receiver with an adaptively-biased Ge photodiode for LR applications.</em>
-            In IEEE Region 10 Conference (TENCON) 2016, pp. 3593–3596.
-          </li>
-          <li>
-            <strong>Kulkarni, Vishal Vinayak</strong>; Wei Yi Lim; Bin Zhao; Dan Lei Yan; <strong>Yu‑Shun Wang</strong>; Jun Zhou; Muthukumaraswamy Annamalai Arasu.
-            <em>A 5.1 Gb/s 60.3 fJ/bit/mm PVT tolerant NoC transceiver.</em>
-            In IEEE Asian Solid‑State Circuits Conference (A‑SSCC) 2016, pp. 141–144.
-          </li>
-          <li>
-            <strong>Hsieh, Min‑Han</strong>; Bing‑Feng Lin; <strong>Yu‑Shun Wang</strong>; Hao‑Huei Chang; Charlie Chung‑Ping Chen.
-            <em>A 2–8 GHz multi‑phase distributed DLL using phase insertion in 90 nm.</em>
-            In IEEE International Symposium on Circuits and Systems (ISCAS) 2012, pp. 2015–2018.
-          </li>
-          <li>
-            <strong>Wang, Y.‑S.</strong>; M.‑H. Hsieh; J. C.‑M. Li; C. C.‑P. Chen.
-            <em>An At‑speed Test Technique for High‑speed High‑order Adder by a 6.4‑GHz 64‑bit Domino Adder Example.</em>
-            IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 59, pp. 1644–1655, Aug. 2012.
-          </li>
-          <li>
-            <strong>Wang, Y.‑S.</strong>; M.‑H. Hsieh; C.‑M. Liu; C.‑W. Liu; J. C.‑M. Li; C. C.‑P. Chen.
-            <em>An at‑speed self‑testable technique for the high speed domino adder.</em>
-            In Proc. IEEE Custom Integrated Circuits Conference (CICC), pp. 1–4, Sept. 2011.
-          </li>
-          <li>
-            <strong>Wang, Y.‑S.</strong>; M.‑H. Hsieh; C.‑M. Liu; Y.‑C. Wu; B.‑F. Lin; H.‑C. Chiu; C. C.‑P. Chen.
-            <em>A 1.2V 6.4GHz 181ps 64‑bit CD domino adder with DLL measurement technique.</em>
-            In Proc. IEEE Int. Symposium on Circuits and Systems (ISCAS), pp. 1423–1426, May 2011.
-          </li>
-          <li>
-            <strong>Wang, Y.‑S.</strong>; M.‑H. Hsieh; Y.‑C. Wu; C.‑M. Liu; H.‑C. Chiu; B.‑F. Lin; C. C.‑P. Chen.
-            <em>A 12 Gb/s chip‑to‑chip AC coupled transceiver.</em>
-            In Proc. IEEE Int. Symposium on Circuits and Systems (ISCAS), pp. 1692–1695, May 2011.
-          </li>
-          <li>
-            <strong>Wang, Y.‑S.</strong>; L.‑H. Lu.
-            <em>5.7 GHz low‑power variable‑gain LNA in 0.18 μm CMOS.</em>
-            IEE Electronics Letters, Vol. 41, No. 2, pp. 66–68, Jan. 2005.
-          </li>
-          <li>
-            <strong>Lu, L.‑H.</strong>; H.‑H. Hsieh; <strong>Wang, Y.‑S.</strong>
-            <em>A Compact 2.4/5.2‑GHz CMOS Dual‑Band Low‑Noise Amplifier.</em>
-            IEEE Microwave and Wireless Components Letters (MWCL), Vol. 15, No. 10, pp. 685–687, Oct. 2005.
-          </li>
+      <div class="card" style="margin-top: 16px;">
+        <span class="kicker">Research & Publications</span>
+        <h3>核心學術發表</h3>
+        <p style="font-size: 14px; color: var(--muted);">王博士在頂尖國際會議與期刊 (IEEE, ISCAS, CICC 等) 發表多篇關於高頻寬收發器、加法器設計等領域的重要論文：</p>
+        <ul style="font-size: 14px;">
+          <li><strong>Wang, Y.‑S.</strong>; et al. <em>An At‑speed Test Technique for High‑speed High‑order Adder by a 6.4‑GHz 64‑bit Domino Adder Example.</em> IEEE Transactions on Circuits and Systems I, 2012.</li>
+          <li><strong>Wang, Y.‑S.</strong>; et al. <em>A 12 Gb/s chip‑to‑chip AC coupled transceiver.</em> IEEE ISCAS, 2011.</li>
+          <li><strong>Wang, Yu‑Shun</strong>; et al. <em>Enhanced dynamic range CMOS photonics receiver with an adaptively-biased Ge photodiode for LR applications.</em> IEEE TENCON, 2016.</li>
         </ul>
-        <p class="note">Patent: （如需補充專利清單，可於此區塊新增條目）</p>
-        <p class="note">© Yu‑Shun Wang, 2012 NTU. All rights reserved · © Yu‑Shun Wang, 2019 NTU. All rights reserved</p>
-      </div>
-    </section>
-
-    <section id="awards" aria-labelledby="awards-title">
-      <h2 id="awards-title">Awards & Honors</h2>
-      <div class="grid grid-2">
-        <div class="card">
-          <h3>跆拳道</h3>
-          <ul>
-            <li><strong>1998/09 – 2001/06:</strong> 中央大學跆拳道代表隊 隊長</li>
-            <li><strong>1999:</strong> 全國大專杯跆拳道錦標賽 銅牌</li>
-            <li><strong>2000:</strong> 四中五校跆拳道錦標賽 銀牌</li>
-            <li><strong>2001:</strong> 輔大盃跆拳道錦標賽 銅牌</li>
-            <li><strong>2001:</strong> 中原盃跆拳道錦標賽 黑帶組 銀牌</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>社團與服務</h3>
-          <ul>
-            <li><strong>1998/09 – 2002/06:</strong> 中央大學 569啦啦社 社員</li>
-            <li><strong>1998/09 – 2002/06:</strong> 台北市中國青年救國團 第31期 假期活動服務員</li>
-            <li><strong>1999/09 – 2002/06:</strong> 台北市中國青年旅行社 特約領隊</li>
-            <li><strong>1999/09 – 2003/06:</strong> 桃園縣中國青年旅行社 特約領隊</li>
-          </ul>
-        </div>
+        <a href="https://www.linkedin.com/in/jackywang1980/" target="_blank" class="note" style="color: var(--link);">查看完整學術發表與專利列表 &rarr;</a>
       </div>
     </section>
 
     <section id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
+      <h2 id="contact-title">聯絡我們 (Contact)</h2>
       <div class="grid grid-2">
         <div class="card">
-          <h3>Get in touch</h3>
-          <p>如需合作洽詢、研究交流或取得完整履歷，歡迎透過以下方式聯絡。</p>
+          <h3>與我們展開合作</h3>
+          <p>無論是 AI 技術諮詢、企業專案合作，或是媒體採訪需求，都歡迎與鞅法黑科技有限公司的團隊聯繫。</p>
           <div class="cta">
-            <a class="btn" href="mailto:prof@weishun.cc">📧 Email</a>
-            <a class="btn alt" href="https://www.linkedin.com/in/jackywang1980/" target="_blank" rel="noopener">🔗 LinkedIn</a>
+            <a class="btn" href="mailto:yushun.wang1@gmail.com">📧 寄送信件</a>
+            <a class="btn alt" href="https://www.linkedin.com/in/jackywang1980/" target="_blank" rel="noopener">🔗 聯繫技術長</a>
           </div>
         </div>
       </div>
@@ -244,7 +219,7 @@
 
   <footer>
     <div class="wrap">
-      <div>© <span id="y"></span> Yu‑Shun Wang · All rights reserved.</div>
+      <div>© <span id="y"></span> 鞅法黑科技有限公司 (Yangfa Black Technology Co., Ltd.) · All rights reserved.</div>
     </div>
   </footer>
 
